@@ -1,0 +1,20 @@
+//Print Decimal to binary number
+// 7=111
+// 16=10000
+#include<iostream>
+using namespace std;
+int binary(int d){
+    int b=0,r;
+    int p=1;
+    while(d>0){
+        r=d%2;
+        d=d/2;
+        b=b+(r*p);
+        p=p*10;
+
+    }
+    return b;
+}
+int main(){
+cout<<binary(16);
+}
