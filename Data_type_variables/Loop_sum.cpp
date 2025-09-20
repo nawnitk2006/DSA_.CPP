@@ -20,7 +20,7 @@
 //     cout<<sum;
 //     return 0;
 // }
-//check a prime or not
+// check a prime or not
 #include<iostream>
 using namespace std;
 int main(){
