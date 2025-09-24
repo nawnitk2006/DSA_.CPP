@@ -7,6 +7,8 @@ int main(){
     for(int i=0; i<5;i++){
         cout<<arr[i]<<endl;
     }
-
+// Array 
+// Indexing start from 0
+cout<<arr[3];
     return 0;
 }
